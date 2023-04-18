@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'global/home.html')
+    return render(request, 'recipes/pages/home.html')
 
 
 def about(request):
